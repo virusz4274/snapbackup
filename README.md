@@ -1,4 +1,7 @@
 # disclaimer
+I reuploaded this script, i deleted old repo and reuploaded here.
+I wrote this script very long time ago, it still works. 
+There script is made using inefficient ways but it will  work as expected. 
 This is  my first time writing a script
 
 # snapbackup
@@ -13,6 +16,7 @@ This script does the following
   deletes existing snapshots
   create a folder named snapbackups where the script is placed
   copies  the snapshot to the snapbackups folder
+  updates current snap packages to latest
   copies the snap packages to snapbackups folder
   downloads assert files for the snap packages that are backuped
 
@@ -20,6 +24,7 @@ This script does the following
   This script  does the following
     installs the snap packages from the backup
     restores the copy of snapshots
+    restores the snapshots 
     
     
 #USAGE
@@ -27,10 +32,8 @@ run snapbackup.sh first
 copy the snapbackups folder 
 to restore
 run restoresnap.sh
-Make sure the script and snapbackups folder are in  the same directory
-after executing restoresnap.sh
-do snap saved and note the set number
-then run sudo snap restore [set_number]
-
 Thats it the snaps  are now  restored
+Make sure the script and snapbackups folder are in  the same directory
+
+
   
